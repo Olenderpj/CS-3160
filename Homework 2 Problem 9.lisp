@@ -1,4 +1,5 @@
-;Maps a function over a list 
+; Write a function Map that takes two parameters, a function f, and an arbitrary value y.
+; The Map function then returns the result of invoking f to modify each element contained inside y.
 
 (defun multiply (x)
     (* x 10)
