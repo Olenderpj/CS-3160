@@ -1,3 +1,13 @@
+;Define a function count, which takes an arbitrary parameter x and returns the number of
+;numeric values (i.e., numbers) contained in x. Test your code with the following cases.
+;> (count 'x)
+;0
+;> (count '(x 3))
+;1
+;> (count '((1 2) 3) )
+;3
+
+
 (defun countNums (x)
     (cond
         ((null x) 0)
