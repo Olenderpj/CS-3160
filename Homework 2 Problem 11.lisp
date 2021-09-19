@@ -1,3 +1,6 @@
+;Define in Lisp a function Find which takes two parameters, x and y.
+;It returns x if x appears in y, and returns an empty list otherwise.
+
 (setq testList '(1 2 3 4 7 8 9))
 
 
