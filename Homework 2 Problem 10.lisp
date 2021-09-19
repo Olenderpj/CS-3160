@@ -1,4 +1,5 @@
-; replace all list occurences x with z
+; Define a function substitute which takes three parameters, x, y, and z. 
+; It returns a new list which replaces all occurrences of x in y with z.
 
 (defun sub (x lst z)
     (cond
